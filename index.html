@@ -55,62 +55,78 @@
                 </div>
             </div>
         </div>
-    </header><!-- Navbar -->
+    </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container d-flex align-items-center justify-content-between">
-            
-            <!-- Left Section: Toggler (Hamburger Menu) -->
-            <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Center Section: Navbar Links -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <li><a class="dropdown-item" onclick="scrollToCard('lawncare');" data-bs-toggle="modal"
-                                    data-bs-target="#lawncareModal">Lawncare & Maintenance</a></li>
-                            <li><a class="dropdown-item" onclick="scrollToCard('acreage');" data-bs-toggle="modal"
-                                    data-bs-target="#acreageModal">Acreage Mowing</a></li>
-                            <li><a class="dropdown-item" onclick="scrollToCard('window');" data-bs-toggle="modal"
-                                    data-bs-target="#windowModal">Window Cleaning</a></li>
-                            <li><a class="dropdown-item" onclick="scrollToCard('pressure');" data-bs-toggle="modal"
-                                    data-bs-target="#pressureModal">Pressure Washing</a></li>
-                            <li><a class="dropdown-item" onclick="scrollToCard('soft');" data-bs-toggle="modal"
-                                    data-bs-target="#softModal">Soft Washing</a></li>
-                            <li><a class="dropdown-item" onclick="scrollToCard('cleaning');" data-bs-toggle="modal"
-                                    data-bs-target="#cleaningModal">Commercial & Residential Cleaning</a></li>
-                            <li><a class="dropdown-item" onclick="scrollToCard('blind');" data-bs-toggle="modal"
-                                    data-bs-target="#blindModal">Ultrasonic Blind Cleaning</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact Us</a>
-                    </li>
+        <div class="container d-flex flex-lg-nowrap align-items-center">
+          <!-- Mobile toggler and logo (visible only on mobile) -->
+          <button class="navbar-toggler me-2 d-lg-none" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="https://placehold.co/250x50" alt="Logo" class="img-fluid" style="max-height: 50px;">
+          </a>
+      
+          <!-- Navbar collapse (menu) -->
+          <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('lawncare');" data-bs-toggle="modal"
+                       data-bs-target="#lawncareModal">Lawncare &amp; Maintenance</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('acreage');" data-bs-toggle="modal"
+                       data-bs-target="#acreageModal">Acreage Mowing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('window');" data-bs-toggle="modal"
+                       data-bs-target="#windowModal">Window Cleaning</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('pressure');" data-bs-toggle="modal"
+                       data-bs-target="#pressureModal">Pressure Washing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('soft');" data-bs-toggle="modal"
+                       data-bs-target="#softModal">Soft Washing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('cleaning');" data-bs-toggle="modal"
+                       data-bs-target="#cleaningModal">Commercial &amp; Residential Cleaning</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('blind');" data-bs-toggle="modal"
+                       data-bs-target="#blindModal">Ultrasonic Blind Cleaning</a>
+                  </li>
                 </ul>
-            </div>
-    
-        
-            <a class="navbar-brand ms-auto position-absolute end-0 pe-3" href="#">
-                <img src="https://placehold.co/250x50" alt="Logo" class="img-fluid" style="max-height: 50px;">
-            </a>
-    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Desktop logo (visible only on desktop) -->
+          <a class="navbar-brand ms-lg-auto d-none d-lg-block order-3 order-lg-2" href="#">
+            <img src="https://placehold.co/250x50" alt="Logo" class="img-fluid" style="max-height: 50px;">
+          </a>
         </div>
-    </nav>
-    
-
+      </nav>
+      
+      
     <div class="container my-5 text-center">
         <h1>Where's Wallace Property Care</h1>
         <h4>a brief eyecatching description of the company goes here</h4>
