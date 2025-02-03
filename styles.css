@@ -1,0 +1,22 @@
+/* Hover Effect for Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);  
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);  
+    cursor: pointer;
+}
+
+/* Remove arrows from number input (Chrome, Safari, Edge, Opera) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove arrows from number input (Firefox) */
+input[type="number"] {
+    -moz-appearance: textfield;
+}

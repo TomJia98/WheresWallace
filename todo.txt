@@ -1,5 +1,9 @@
-enter all info for modals
-set the href tags 
 set up contact us 
+-email check
+-service dropdown
+-style button
+-autofill from modal redirect
+-autosend to aedan
 style buttons ( move close to left )
+change cards so they act as buttons to modals, with hover
 add images
