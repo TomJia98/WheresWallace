@@ -1,0 +1,5 @@
+enter all info for modals
+set the href tags 
+set up contact us 
+style buttons ( move close to left )
+add images
