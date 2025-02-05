@@ -7,3 +7,7 @@ set up contact us
 style buttons ( move close to left )
 change cards so they act as buttons to modals, with hover
 add images
+add a brief landing
+add ratings from google review 
+reverse primary logo hashtag at end of password if it doesnt work
+gallery

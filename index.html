@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
     <script type="text/javascript">
         (function () {
 
@@ -31,6 +32,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
     <title>Where's Wallace Property Services</title>
+    <link rel="icon"  href="images\Where's Wallace - Primary Favicon.png">
 </head>
 
 <body>
@@ -39,13 +41,13 @@
     <header class="bg-white border-bottom py-2">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="#" class="navbar-brand">
-                <img src="https://via.placeholder.com/100x50" alt="Logo">
+                <img src="images\Where's Wallace - Primary Reverse Social Media Icon.png" width ="75" height="75" alt="Logo" >
             </a>
             <div class="d-flex align-items-center">
                 <div class="icon-link">
                     <i class="bi bi-telephone fs-4"></i><br>
                     <span>CALL US</span><br>
-                    <a href="tel:1300655506"> <strong>number here</strong></a>
+                    <a href="tel:0422493232"> <strong>0422493232</strong></a>
 
                 </div>
                 <div class="icon-link">
@@ -65,7 +67,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand d-lg-none" href="#">
-            <img src="https://placehold.co/250x50" alt="Logo" class="img-fluid" style="max-height: 50px;">
+            <img src="images\Where's Wallace Primary Logo.png" alt="Logo" width="250" height="50" class="img-fluid" style="max-height: 50px;">
           </a>
       
           <!-- Navbar collapse (menu) -->
@@ -108,6 +110,14 @@
                     <a class="dropdown-item" onclick="scrollToCard('blind');" data-bs-toggle="modal"
                        data-bs-target="#blindModal">Ultrasonic Blind Cleaning</a>
                   </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('lawnmowing');" data-bs-toggle="modal"
+                       data-bs-target="#lawnmowingModal">Lawnmowing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" onclick="scrollToCard('gardening');" data-bs-toggle="modal"
+                       data-bs-target="#gardeningModal">Gardening</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -116,12 +126,16 @@
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal"
+                data-bs-target="#galleryModal" href="#">Gallery</a>
+              </li>
             </ul>
           </div>
       
           <!-- Desktop logo (visible only on desktop) -->
           <a class="navbar-brand ms-lg-auto d-none d-lg-block order-3 order-lg-2" href="#">
-            <img src="https://placehold.co/250x50" alt="Logo" class="img-fluid" style="max-height: 50px;">
+            <img src="images\Where's Wallace Primary Logo.png" width="250" alt="Logo" class="img-fluid" style="max-height: 100px;">
           </a>
         </div>
       </nav>
@@ -220,6 +234,33 @@
                     </div>
                 </div>
             </div>
+
+             <!-- Card 1 -->
+             <div class="col-lg-4 col-md-6 col-sm-12" id="lawnmowing" data-bs-toggle="modal"
+             data-bs-target="#lawnmowingModal">
+             <div class="card hover">
+                 <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 1">
+                 <div class="card-body">
+                     <h5 class="card-title">Lawnmowing</h5>
+                     <p class="card-text"> lawnmowing desc</p>
+                 </div>
+             </div>
+         </div>
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-12" id="gardening" data-bs-toggle="modal"
+          data-bs-target="#gardeningModal">
+          <div class="card hover">
+              <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 1">
+              <div class="card-body">
+                  <h5 class="card-title">Gardening</h5>
+                  <p class="card-text">gardening desc</p>
+              </div>
+          </div>
+      </div>
+
+        
+        
         </div>
     </div>
 
@@ -266,7 +307,6 @@
                     ensure your lawn receives the attention it needs for the best possible results.
                 </div>
 
-                <!-- Footer -->
                 <!-- Footer -->
                 <div class="modal-footer d-flex justify-content-between">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -595,6 +635,104 @@
         </div>
     </div>
 
+    
+    <!-- Modal acreage -->
+    <div class="modal fade text-center" id="gardeningModal" tabindex="-1" aria-labelledby="gardeningModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal"
+                        aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Header -->
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Gardening</h1>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                    gardening desc
+                </div>
+
+                <!-- Footer -->
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                        onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Modal acreage -->
+    <div class="modal fade text-center" id="lawnmowingModal" tabindex="-1" aria-labelledby="lawnmowingModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://placehold.co/600x400" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal"
+                        aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Header -->
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lawnmowing</h1>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                 lawnmowing desc
+                </div>
+
+                <!-- Footer -->
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                        onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <div class="container">
         <div id="about">
@@ -619,7 +757,9 @@
             </p>
         </div>
     </div>
-
+<div class = "container">
+    <div id="featurable-3ec66629-d3c2-4f9f-ad19-aa8d1c8a6f94" data-featurable-async ></div><script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
+</div>
     <div class="container">
         <hr>
         <form id="contact-form">
@@ -655,10 +795,30 @@
     <hr>
     <footer class="py-3 mt-5">
         <div class="container text-center">
-            <p class="mb-1">Call Us: <a href="tel:1300655506" class=" fw-bold">1300 655 506</a></p>
+            <p class="mb-1">Call Us: <a href="tel:0422493232" class=" fw-bold">0422493232</a></p>
             <p class="small mb-0">Created by <strong>TJ Tech Services</strong></p>
         </div>
     </footer>
+
+
+<!-- gallery Modal -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="fullscreenModalLabel">Fullscreen Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2>This is a Fullscreen Modal</h2>
+                <p>You can add any content here, and it will take up the entire screen.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
