@@ -25,8 +25,10 @@ input[type="number"] {
 
 .gallery-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Responsive tiling */
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Adds spacing between images */
+    justify-content: center; /* Ensures images are centered */
+    align-items: center;
 }
 
 .gallery-item {
@@ -47,3 +49,16 @@ input[type="number"] {
     display: block;
     margin: auto;
 }
+
+/* Ensure the modal-content is positioned relative */
+.modal-fullscreen .modal-content {
+    position: relative;
+  }
+  /* Position the footer at the bottom of the modal-content */
+  .modal-fullscreen .modal-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1055; /* Ensures it appears above other elements */
+  }
