@@ -27,27 +27,37 @@ function openModal(imgElement) {
   imageModal.show();
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Track when a modal is opened
-  document.querySelectorAll(".modal").forEach(modal => {
-      modal.addEventListener("shown.bs.modal", function () {
-          history.pushState({ modalOpen: true }, "", "#modal");
-      });
 
-      modal.addEventListener("hidden.bs.modal", function () {
-          // Remove state when the modal closes
-          if (history.state && history.state.modalOpen) {
-              history.back();
+
+function showModal(modalId) {
+  const modalElement = document.getElementById(modalId);
+  if (modalElement) {
+      let modalInstance = new bootstrap.Modal(modalElement);
+      modalInstance.show();
+  }
+}
+
+// Attach event listeners to all elements with 'showmodal' class
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".showmodal").forEach((element) => {
+      element.addEventListener("click", function (event) {
+          event.preventDefault();
+          if (element.hasAttribute("data-show-modal")) {
+              // Update the image source if opening the image modal
+              if (element.getAttribute("data-show-modal") === "imageModal") {
+                  document.getElementById("modalImage").src = element.src;
+              }
+              showModal(element.getAttribute("data-show-modal"));
           }
       });
   });
+});
 
-  // Detect when user presses "Back"
-  window.addEventListener("popstate", function (event) {
-      let openModal = document.querySelector(".modal.show");
-      if (openModal) {
-          let modalInstance = bootstrap.Modal.getInstance(openModal);
-          modalInstance.hide();
-      }
-  });
+// Handle browser back button
+window.addEventListener("popstate", function () {
+  let openModal = document.querySelector(".modal.show");
+  if (openModal) {
+      let modalInstance = bootstrap.Modal.getInstance(openModal);
+      modalInstance.hide();
+  }
 });

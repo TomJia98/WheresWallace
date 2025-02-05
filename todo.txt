@@ -1,13 +1,3 @@
-set up contact us 
--email check
--service dropdown
--style button
--autofill from modal redirect
--autosend to aedan
-style buttons ( move close to left )
-change cards so they act as buttons to modals, with hover
-add images
-add a brief landing
-add ratings from google review 
-reverse primary logo hashtag at end of password if it doesnt work
-gallery
+fix the formatting with the reviews ( pay for it)
+center the images on mobile better 
+change the close button on gallery to be static and at bottom of page 
