@@ -70,14 +70,14 @@ input[type="number"] {
   } */
 
   /* Change all buttons to RGB(216,70,31) */
-button, .btn {
+.buttonColoured {
     background-color: rgb(216,70,31) !important; /* Main Button Color */
     border-color: rgb(216,70,31) !important;
     color: white !important; /* Ensures text is readable */
 }
 
 /* Button Hover Effect */
-button:hover, .btn:hover {
+.buttonColoured:hover {
     background-color: rgb(180,50,20) !important; /* Darker Shade on Hover */
     border-color: rgb(180,50,20) !important;
 }

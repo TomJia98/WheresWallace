@@ -264,17 +264,21 @@ modalInfo.forEach(modal => {
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content">
                 <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">${modal.title}</h1>
+                                </div>
                     <!-- Carousel -->
                     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
 
-                        ${modal.images.forEach(img => {
-                          return `
-                           <div class="carousel-item">
-                                <img src="${img}" class="d-block w-100" alt="...">
-                            </div>`
-
-                        })}
+                        ${modal.images.map((img, index) => `
+                          <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                              <img src="${img}" class="d-block w-100" alt="...">
+                          </div>
+                      `).join("")}
+                      
                            
                         </div>
                     </div>
@@ -282,11 +286,6 @@ modalInfo.forEach(modal => {
                     <!-- Close Button -->
                     <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal"
                         aria-label="Close" style="z-index: 1055;"></button>
-                </div>
-
-                <!-- Header -->
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5">${modal.title}</h1>
                 </div>
 
                 <!-- Body -->
@@ -297,7 +296,7 @@ modalInfo.forEach(modal => {
                 <!-- Footer -->
                 <div class="modal-footer d-flex justify-content-between">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal"
                         onclick="scrollToCard('contact-form')">Get A Quote</button>
                 </div>
 
