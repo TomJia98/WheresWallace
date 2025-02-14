@@ -47,13 +47,13 @@
             <div class="d-flex align-items-center">
                 <div class="icon-link">
                     <br>
-                    <a href="tel:0422493232"> <strong><span>CALL US</span></strong></a>
+                    <a href="tel:0422493232" class="link"> <strong><span>CALL US</span></strong></a>
 
                 </div>
                 <div class="icon-link">
                     <i class="bi bi-calendar fs-4"></i><br>
                     <span>GET A</span><br>
-                    <a href="#contact-form"><strong>FREE QUOTE</strong></a>
+                    <a href="#contact-form" class="link"><strong>FREE QUOTE</strong></a>
                 </div>
             </div>
         </div>
@@ -81,43 +81,16 @@
                    data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('lawncare');" data-bs-toggle="modal"
-                       data-bs-target="#lawncareModal">Lawncare &amp; Maintenance</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('acreage');" data-bs-toggle="modal"
-                       data-bs-target="#acreageModal">Acreage Mowing</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('window');" data-bs-toggle="modal"
-                       data-bs-target="#windowModal">Window Cleaning</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('pressure');" data-bs-toggle="modal"
-                       data-bs-target="#pressureModal">Pressure Washing</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('soft');" data-bs-toggle="modal"
-                       data-bs-target="#softModal">Soft Washing</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('cleaning');" data-bs-toggle="modal"
-                       data-bs-target="#cleaningModal">Commercial &amp; Residential Cleaning</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('blind');" data-bs-toggle="modal"
-                       data-bs-target="#blindModal">Ultrasonic Blind Cleaning</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('lawnmowing');" data-bs-toggle="modal"
-                       data-bs-target="#lawnmowingModal">Lawnmowing</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" onclick="scrollToCard('gardening');" data-bs-toggle="modal"
-                       data-bs-target="#gardeningModal">Gardening</a>
-                  </li>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown" id = "dropdownMenu">
+                    <li><a class="dropdown-item" onclick="scrollToCard('lawnmowing');" data-bs-toggle="modal" data-bs-target="#lawnmowingModal">Lawnmowing</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('acreage');" data-bs-toggle="modal" data-bs-target="#acreageModal">Acreage Mowing</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('lawncare');" data-bs-toggle="modal" data-bs-target="#lawncareModal">Lawncare & Maintenance</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('gardening');" data-bs-toggle="modal" data-bs-target="#gardeningModal">Gardening</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('window');" data-bs-toggle="modal" data-bs-target="#windowModal">Window Cleaning</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('pressure');" data-bs-toggle="modal" data-bs-target="#pressureModal">Pressure Washing</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('soft');" data-bs-toggle="modal" data-bs-target="#softModal">Soft Washing</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('cleaning');" data-bs-toggle="modal" data-bs-target="#cleaningModal">Commercial & Residential Cleaning</a></li>
+                    <li><a class="dropdown-item" onclick="scrollToCard('blind');" data-bs-toggle="modal" data-bs-target="#blindModal">Ultrasonic Blind Cleaning</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -142,131 +115,121 @@
       
       
     <div class="container my-5 text-center">
-        <h1>Where's Wallace Property Services</h1>
-        <h4>a brief eyecatching description of the company goes here</h4>
+     
+        <img src="images\Where's Wallace Reverse Primary Logo.jpg"  class="card-img-top" id = "mainLogo">
+        
+    
+        <h4>a brief eyecatching description/motto of the company goes here</h4>
     </div>
 
     <!-- -----------cards---------- -->
-    <div class="container my-5">
-        <div class="row g-4 justify-content-center">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 col-sm-12" id="lawncare" data-bs-toggle="modal"
-                data-bs-target="#lawncareModal">
+    <div class="container my-5" >
+        <div class="row g-4 justify-content-center" id="serviceCards">
+            <!-- Lawn Mowing -->
+            <div class="col-lg-4 col-md-6 col-sm-12" id="lawnmowing" data-bs-toggle="modal" data-bs-target="#lawnmowingModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 1">
+                    <img src="images/57f8e273-efe9-4946-b4e5-c4543184d421.jpg" class="card-img-top" alt="Lawnmowing">
                     <div class="card-body">
-                        <h5 class="card-title">Lawncare & Maintainance</h5>
-                        <p class="card-text">Transform your lawn with our extensive care and maintenance services</p>
+                        <h5 class="card-title">Lawnmowing</h5>
+                        <p class="card-text">Lawnmowing description</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 2 -->
-
+    
+            <!-- Acreage Mowing -->
             <div class="col-lg-4 col-md-6 col-sm-12" id="acreage" data-bs-toggle="modal" data-bs-target="#acreageModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 2">
+                    <img src="images/3f74942e-84e6-47ea-8848-3293b708b755.jpg" class="card-img-top" alt="Acreage Mowing">
                     <div class="card-body">
-                        <h5 class="card-title" id="cardTitle2">Acreage Mowing</h5>
-                        <p class="card-text">Maintain the beauty and order of your extensive property with our expert
-                            acreage mowing
-                            services</p>
+                        <h5 class="card-title">Acreage Mowing</h5>
+                        <p class="card-text">Maintain the beauty and order of your extensive property.</p>
                     </div>
                 </div>
             </div>
-
-            <!-- Card 3 -->
+    
+            <!-- Lawncare & Maintenance -->
+            <div class="col-lg-4 col-md-6 col-sm-12" id="lawncare" data-bs-toggle="modal" data-bs-target="#lawncareModal">
+                <div class="card hover">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Lawncare">
+                    <div class="card-body">
+                        <h5 class="card-title">Lawncare & Maintenance</h5>
+                        <p class="card-text">Transform your lawn with our extensive care and maintenance services.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Gardening -->
+            <div class="col-lg-4 col-md-6 col-sm-12" id="gardening" data-bs-toggle="modal" data-bs-target="#gardeningModal">
+                <div class="card hover">
+                    <img src="images/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg" class="card-img-top" alt="Gardening">
+                    <div class="card-body">
+                        <h5 class="card-title">Gardening</h5>
+                        <p class="card-text">Gardening description</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Window Cleaning -->
             <div class="col-lg-4 col-md-6 col-sm-12" id="window" data-bs-toggle="modal" data-bs-target="#windowModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 3">
+                    <img src="images/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg" class="card-img-top" alt="Window Cleaning">
                     <div class="card-body">
                         <h5 class="card-title">Window Cleaning</h5>
-                        <p class="card-text">Enjoy spotless, streak-free windows with our professional window cleaning
-                            services</p>
+                        <p class="card-text">Enjoy spotless, streak-free windows with our professional services.</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 4 -->
-            <div class="col-lg-4 col-md-6 col-sm-12" id="pressure" data-bs-toggle="modal"
-                data-bs-target="#pressureModal">
+    
+            <!-- Pressure Washing -->
+            <div class="col-lg-4 col-md-6 col-sm-12" id="pressure" data-bs-toggle="modal" data-bs-target="#pressureModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 4">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Pressure Washing">
                     <div class="card-body">
                         <h5 class="card-title">Pressure Washing</h5>
-                        <p class="card-text">Restore the appearance and maintain your property with our professional
-                            pressure washing
-                            services</p>
+                        <p class="card-text">Restore and maintain your property with our professional pressure washing services.</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 5 -->
+    
+            <!-- Soft Washing -->
             <div class="col-lg-4 col-md-6 col-sm-12" id="soft" data-bs-toggle="modal" data-bs-target="#softModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 5">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Soft Washing">
                     <div class="card-body">
                         <h5 class="card-title">Soft Washing</h5>
-                        <p class="card-text">Refresh and protect the exterior of your property with our expert soft
-                            washing services</p>
+                        <p class="card-text">Refresh and protect your property with expert soft washing.</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 6 -->
-            <div class="col-lg-4 col-md-6 col-sm-12" id="cleaning" data-bs-toggle="modal"
-                data-bs-target="#cleaningModal">
+    
+            <!-- Commercial & Residential Cleaning -->
+            <div class="col-lg-4 col-md-6 col-sm-12" id="cleaning" data-bs-toggle="modal" data-bs-target="#cleaningModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 6">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Commercial Cleaning">
                     <div class="card-body">
                         <h5 class="card-title">Commercial & Residential Cleaning</h5>
-                        <p class="card-text">Keep your space spotless, sparkling and well-kept with our professional
-                            level cleaning
-                            services.</p>
+                        <p class="card-text">Keep your space spotless with our professional cleaning services.</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 7 -->
+    
+            <!-- Ultrasonic Blind Cleaning -->
             <div class="col-lg-4 col-md-6 col-sm-12" id="blind" data-bs-toggle="modal" data-bs-target="#blindModal">
                 <div class="card hover">
-                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 5">
+                    <img src="https://placehold.co/600x400" class="card-img-top" alt="Blind Cleaning">
                     <div class="card-body">
                         <h5 class="card-title">Ultrasonic Blind Cleaning</h5>
-                        <p class="card-text">Transform your blinds using our cutting-edge ultrasonic cleaning service
-                            that will have them
-                            looking better than ever.</p>
+                        <p class="card-text">Transform your blinds with cutting-edge ultrasonic cleaning.</p>
                     </div>
                 </div>
             </div>
-
-             <!-- Card 1 -->
-             <div class="col-lg-4 col-md-6 col-sm-12" id="lawnmowing" data-bs-toggle="modal"
-             data-bs-target="#lawnmowingModal">
-             <div class="card hover">
-                 <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 1">
-                 <div class="card-body">
-                     <h5 class="card-title">Lawnmowing</h5>
-                     <p class="card-text"> lawnmowing desc</p>
-                 </div>
-             </div>
-         </div>
-
-          <!-- Card 1 -->
-          <div class="col-lg-4 col-md-6 col-sm-12" id="gardening" data-bs-toggle="modal"
-          data-bs-target="#gardeningModal">
-          <div class="card hover">
-              <img src="https://placehold.co/600x400" class="card-img-top" alt="Card Image 1">
-              <div class="card-body">
-                  <h5 class="card-title">Gardening</h5>
-                  <p class="card-text">gardening desc</p>
-              </div>
-          </div>
-      </div>
-
-        
-        
         </div>
     </div>
 
-
     <!-- -------------- Modals  ----------- -->
 
+
+    <div id="serviceModals"></div>
     <!-- Modal lawncare -->
     <div class="modal fade text-center" id="lawncareModal" tabindex="-1" aria-labelledby="lawncareModalLabel"
         aria-hidden="true">
@@ -763,7 +726,7 @@
     <div class="container">
         <hr>
         <form id="contact-form">
-            <h1 class="text-center">Contact Us</h1>
+            <h1 class="text-center">Contact Us Or Call Us: <a href="tel:0422493232" class=" fw-bold link" style="text-decoration:none">0422493232</a></h1>
 
             <div class="row">
 
@@ -790,12 +753,14 @@
 
 
                 <button type="submit" class="btn btn-primary" value="Send">Submit</button>
+                <br>
+               
         </form>
     </div>
     <hr>
     <footer class="py-3 mt-5">
         <div class="container text-center">
-            <p class="mb-1">Call Us: <a href="tel:0422493232" class=" fw-bold">0422493232</a></p>
+          
             <p class="small mb-0">Created by <strong>TJ Tech Services</strong></p>
         </div>
     </footer>

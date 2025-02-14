@@ -62,3 +62,34 @@ input[type="number"] {
     right: 0;
     z-index: 1055; /* Ensures it appears above other elements */
   }
+
+  /* #mainLogo{
+    margin:0 auto;
+    height: auto;
+    width: 70vw;
+  } */
+
+  /* Change all buttons to RGB(216,70,31) */
+button, .btn {
+    background-color: rgb(216,70,31) !important; /* Main Button Color */
+    border-color: rgb(216,70,31) !important;
+    color: white !important; /* Ensures text is readable */
+}
+
+/* Button Hover Effect */
+button:hover, .btn:hover {
+    background-color: rgb(180,50,20) !important; /* Darker Shade on Hover */
+    border-color: rgb(180,50,20) !important;
+}
+
+/* Change all <a> tags to RGB(216,70,31) */
+.link {
+    color: rgb(216,70,31) !important;
+    text-decoration: none; /* Removes underline */
+}
+
+/* Change link hover color */
+.link:hover {
+    color: rgb(180,50,20) !important; /* Slightly Darker on Hover */
+    text-decoration: underline; /* Adds underline for better UX */
+}
