@@ -1,6 +1,10 @@
 const myModal = document.getElementById("myModal");
 const myInput = document.getElementById("myInput");
 const galleryDiv = document.getElementById("gallery-container");
+const dropdownContainer = document.getElementById("dropdownMenu");
+const cardContainer = document.getElementById("serviceCards");
+const modalContainer = document.getElementById("serviceModals");
+
 
 const galleryImages = [
 "images/3f74942e-84e6-47ea-8848-3293b708b755.jpg",
@@ -252,10 +256,6 @@ const modalInfo = [
                           stays maintained all year round without you having to worry at all.`,
   },
 ];
-
-const dropdownContainer = document.getElementById("dropdownMenu");
-const cardContainer = document.getElementById("serviceCards");
-const modalContainer = document.getElementById("serviceModals");
 
 cardInfo.forEach(card => {
 

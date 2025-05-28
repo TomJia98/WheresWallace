@@ -1,4 +1,10 @@
+:root {
+    --back: white;
+}
 
+body { 
+    background-color: var(--back) !important;
+}
 
 /* Hover Effect for Cards */
 .card {
