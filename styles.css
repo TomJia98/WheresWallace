@@ -1,6 +1,9 @@
+
+
 /* Hover Effect for Cards */
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .card:hover {
@@ -93,3 +96,14 @@ input[type="number"] {
     color: rgb(180,50,20) !important; /* Slightly Darker on Hover */
     text-decoration: underline; /* Adds underline for better UX */
 }
+@media only screen and (max-width: 1000px) {
+    
+}.imageStyle{
+    width:1110px;
+    height:600px;
+
+}
+ .cardimgtop{
+    max-width: 420px;
+    max-height: 230px;
+ }

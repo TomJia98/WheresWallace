@@ -1,3 +1,1 @@
-fix the formatting with the reviews ( pay for it)
-center the images on mobile better 
-change the close button on gallery to be static and at bottom of page 
+fix text not correctly displaying on modals
