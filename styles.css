@@ -72,11 +72,9 @@ input[type="number"] {
     z-index: 1055; /* Ensures it appears above other elements */
   }
 
-  /* #mainLogo{
-    margin:0 auto;
-    height: auto;
-    width: 70vw;
-  } */
+#mainLogo{
+    margin-bottom: 20px;
+  } 
 
   /* Change all buttons to RGB(216,70,31) */
 .buttonColoured {
