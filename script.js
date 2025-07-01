@@ -20,8 +20,11 @@ const galleryImages = [
 "images/gardening before.jpg",
 "images/gardening after.jpg",
 "images/gardening2.jpg",
+"images/gardening5.jpg",
 "images/lawn1.jpg",
 "images/lawn2.jpg",
+"images/softwashing.jpg",
+"images/pressurewashing.jpg",
 ]
 
 galleryImages.forEach(image => {
@@ -34,21 +37,21 @@ const cardInfo = [
   {
     id: "lawnmowing",
     target: "lawnmowingModal",
-    image: "images/57f8e273-efe9-4946-b4e5-c4543184d421.jpg",
+    image: "resizedImages/57f8e273-efe9-4946-b4e5-c4543184d421.jpg",
     title: "Lawnmowing",
-    description: "Regular lawn mowing can be a time consuming task, but with our team it will be no hassle at all.",
+    description: "Regular lawn mowing can be a time-consuming task, but with our team it will be no hassle at all.",
   },
   {
     id: "acreage",
     target: "acreageModal",
-    image: "images/3f74942e-84e6-47ea-8848-3293b708b755.jpg",
+    image: "resizedImages/3f74942e-84e6-47ea-8848-3293b708b755.jpg",
     title: "Acreage Mowing",
     description: "Maintain the beauty and order of your extensive property.",
   },
   {
     id: "lawncare",
     target: "lawncareModal",
-    image: "images/lawn1.jpg",
+    image: "resizedImages/lawn1.jpg",
     title: "Lawncare & Maintenance",
     description:
       "Transform your lawn with our extensive care and maintenance services.",
@@ -56,15 +59,14 @@ const cardInfo = [
   {
     id: "gardening",
     target: "gardeningModal",
-    image: "images/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg",
+    image: "resizedImages/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg",
     title: "Gardening",
-    description: `Revitalize your garden or design an entirely new outdoor space for your
-                          home or business`,
+    description: `Revitalize your garden or design an entirely new outdoor space for your home or business`,
   },
   {
     id: "window",
     target: "windowModal",
-    image: "images/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg",
+    image: "resizedImages/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg",
     title: "Window Cleaning",
     description:
       "Enjoy spotless, streak-free windows with our professional services.",
@@ -72,7 +74,7 @@ const cardInfo = [
   {
     id: "pressure",
     target: "pressureModal",
-    image: "images/pressure.jpg",
+    image: "resizedImages/pressurewashing.jpg",
     title: "Pressure Washing",
     description:
       "Restore and maintain your property with our professional pressure washing services.",
@@ -80,14 +82,14 @@ const cardInfo = [
   {
     id: "soft",
     target: "softModal",
-    image: "images/soft.jpg",
+    image: "resizedImages/softwashing1.jpg",
     title: "Soft Washing",
     description: "Refresh and protect your property with expert soft washing.",
   },
   {
     id: "cleaning",
     target: "cleaningModal",
-    image: "images/cleaning.jpg",
+    image: "images/coming-soon.jpg",
     title: "Commercial & Residential Cleaning",
     description:
       "Keep your space spotless with our professional cleaning services.",
@@ -95,7 +97,7 @@ const cardInfo = [
   {
     id: "blind",
     target: "blindModal",
-    image: "images/blinds.jpg",
+    image: "images/coming-soon.jpg",
     title: "Ultrasonic Blind Cleaning",
     description: "Transform your blinds with cutting-edge ultrasonic cleaning.",
   },
@@ -106,16 +108,16 @@ const modalInfo = [
     id: "lawncareModal",
     label: "lawncareModalLabel",
     images: [
-      "images/lawn1.jpg",
-      "images/b9772c7a-13b0-4587-a870-2a929a5c585c.jpg",
+      "resizedImages/lawn1.jpg",
+      "resizedImages/b9772c7a-13b0-4587-a870-2a929a5c585c.jpg",
     
     ],
-    title: "Lawncare and Maintainance",
+    title: "Lawncare and Maintenance",
     desc: `  
                     Transform your lawn with our extensive care and maintenance services! In addition to
                     regular mowing, we offer professional fertilizing treatments and lawn rejuvenation packages
                     designed to enhance the health and appearance of your outdoor space. With flexible
-                    mowing schedules tailored to suit your needs and personalised lawncare solutions, we
+                    mowing schedules tailored to suit your needs and personalized lawn care solutions, we
                     ensure your lawn receives the attention it needs for the best possible results.`,
   },
 
@@ -123,8 +125,8 @@ const modalInfo = [
     id: "acreageModal",
     label: "acreageModalLabel",
     images: [
-      "images/3f74942e-84e6-47ea-8848-3293b708b755.jpg",
-      "images/cd2afddb-cdb2-427b-b20e-f56e7414ceab.jpg",
+      "resizedImages/3f74942e-84e6-47ea-8848-3293b708b755.jpg",
+      "resizedImages/cd2afddb-cdb2-427b-b20e-f56e7414ceab.jpg",
       
     ],
     title: "Acreage Mowing",
@@ -140,9 +142,9 @@ const modalInfo = [
     id: "windowModal",
     label: "windowModalLabel",
     images: [
-      "images/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg",
-      "images/076710e6-c0f9-4827-815b-668ede619691.jpg",
-      "images/48fbdadb-2b61-4a2c-8085-ef38c4166120.jpg",
+      "resizedImages/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg",
+      "resizedImages/076710e6-c0f9-4827-815b-668ede619691.jpg",
+      "resizedImages/48fbdadb-2b61-4a2c-8085-ef38c4166120.jpg",
     ],
     title: "Window Cleaning",
     desc: `  
@@ -159,13 +161,13 @@ const modalInfo = [
     id: "pressureModal",
     label: "pressureModalLabel",
     images: [
-        "images/pressure.jpg",
+        "resizedImages/pressurewashing.jpg",
     ],
     title: "Pressure Washing",
     desc: `  
                      Restore the appearance and maintain your property with our professional pressure washing
                     services. From driveways and pathways, to roofs and patios, we use professional pressure
-                    washing equipment to effectively remove dirt, grime, Mold, and stains, bringing your surfaces
+                    washing equipment to effectively remove dirt, grime, mold, and stains, bringing your surfaces
                     back to life. Our team ensures safe, thorough cleaning for all areas, enhancing curb appeal
                     and maintaining the longevity of your property. Whether it&#39;s for a small residential space or a
                     large commercial area, we deliver outstanding results every time, leaving your surfaces
@@ -176,7 +178,7 @@ const modalInfo = [
     id: "softModal",
     label: "softModalLabel",
     images: [
-    "images/soft.jpg"
+    "resizedImages/softwashing.jpg"
     ],
     title: "Soft Washing",
     desc: `  
@@ -193,13 +195,13 @@ const modalInfo = [
     id: "cleaningModal",
     label: "cleaningModalLabel",
     images: [
-  "images/cleaning.jpg"
+  "images/coming-soon.jpg"
     ],
     title: "Commercial and Residential Cleaning",
     desc: `  
-                       Keep your space spotless, sparkling and well-kept with our professional level cleaning
+                       Keep your space spotless, sparkling, and well-kept with our professional level cleaning
                     services. Whether it’s your home or business, we offer customized cleaning solutions to suit
-                    all your needs. From routine to deep cleaning projects our experienced team uses eco-
+                    all your needs. From routine to deep cleaning projects, our experienced team uses eco-
                     friendly products and effective techniques to ensure every surface is thoroughly cleaned,
                     sanitized, and restored. From kitchens and bathrooms to offices and commercial spaces, we
                     take care of the details so you can enjoy a cleaner, healthier environment. Let us help you
@@ -210,7 +212,7 @@ const modalInfo = [
     id: "blindModal",
     label: "blindModalLabel",
     images: [
-      "images/blinds.jpg"
+      "images/coming-soon.jpg"
     ],
     title: "Ultrasonic Blind Cleaning",
     desc: `  
@@ -227,17 +229,17 @@ const modalInfo = [
     id: "gardeningModal",
     label: "gardeningModalLabel",
     images: [
-      "images/gardening5.jpg",
-      "images/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg",
-      "images/gardening2.jpg",
-      "images/ba979b32-72bd-4f4b-8c0b-81713d9bac07.jpg"
+      "resizedImages/gardening5.jpg",
+      "resizedImages/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg",
+      "resizedImages/gardening2.jpg",
+      "resizedImages/ba979b32-72bd-4f4b-8c0b-81713d9bac07.jpg"
     ],
     title: "Gardening",
     desc: `  
                           Whether you're looking to revitalize your garden or design an entirely new outdoor space for your
                           home or business, you can trust us to bring your vision to life. With years of expertise in every aspect
-                           of gardening and landscaping, we work closely with you to ensure the rresluts not only meet but exceed
-                           your expectations. Our commitmen to quality and attention to detail guarantees that you'll recieve the 
+                           of gardening and landscaping, we work closely with you to ensure the results not only meet but exceed
+                           your expectations. Our commitment to quality and attention to detail guarantees that you'll receive the 
                            outdoor space you've always dreamed of.`,
   },
 
@@ -245,14 +247,14 @@ const modalInfo = [
     id: "lawnmowingModal",
     label: "lawnmowingModalLabel",
     images: [
-      "images/57f8e273-efe9-4946-b4e5-c4543184d421.jpg",
-      "images/lawn2.jpg",
+      "resizedImages/57f8e273-efe9-4946-b4e5-c4543184d421.jpg",
+      "resizedImages/lawn2.jpg",
      
     ],
     title: "Lawnmowing",
     desc: `  
-                          Regular lawn mowing can be a time consuming task, but with our team it will be no hassle at all.
-                          We offer customisable scheduling options to fit your lifestyle, and your lawn's neeeds so that it
+                          Regular lawn mowing can be a time-consuming task, but with our team it will be no hassle at all.
+                          We offer customizable scheduling options to fit your lifestyle, and your lawn's needs so that it
                           stays maintained all year round without you having to worry at all.`,
   },
 ];
