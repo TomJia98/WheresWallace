@@ -46,7 +46,7 @@
     <header class="border-bottom py-2">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="#" class="navbar-brand">
-                <img src="images\Where's Wallace - Primary Reverse Social Media Icon.png" width ="75" height="75" alt="Logo" >
+                <img src="images\Where's Wallace - Primary Reverse Social Media Icon.png" width="75" height="75" alt="Logo">
             </a>
             <div class="d-flex align-items-center">
                 <div class="icon-link">
@@ -65,9 +65,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container d-flex flex-lg-nowrap align-items-center">
           <!-- Mobile toggler and logo (visible only on mobile) -->
-          <button class="navbar-toggler me-2 d-lg-none" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                  aria-label="Toggle navigation">
+          <button class="navbar-toggler me-2 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand d-lg-none" href="#">
@@ -81,12 +79,29 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                   data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="servicesDropdown" id = "dropdownMenu">
-                </ul>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown" id="dropdownMenu">
+                
+  <li><a class="dropdown-item" onclick="scrollToCard('lawnmowing');" data-bs-toggle="modal" data-bs-target="#lawnmowingModal">Lawnmowing</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('acreage');" data-bs-toggle="modal" data-bs-target="#acreageModal">Acreage Mowing</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('lawncare');" data-bs-toggle="modal" data-bs-target="#lawncareModal">Lawncare &amp; Maintenance</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('gardening');" data-bs-toggle="modal" data-bs-target="#gardeningModal">Gardening</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('window');" data-bs-toggle="modal" data-bs-target="#windowModal">Window Cleaning</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('pressure');" data-bs-toggle="modal" data-bs-target="#pressureModal">Pressure Washing</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('soft');" data-bs-toggle="modal" data-bs-target="#softModal">Soft Washing</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('cleaning');" data-bs-toggle="modal" data-bs-target="#cleaningModal">Commercial &amp; Residential Cleaning</a></li>
+  
+  <li><a class="dropdown-item" onclick="scrollToCard('blind');" data-bs-toggle="modal" data-bs-target="#blindModal">Ultrasonic Blind Cleaning</a></li>
+  </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About Us</a>
@@ -95,12 +110,10 @@
                 <a class="nav-link" href="#contact">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" href="#">Gallery</a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#galleryModal" href="#">Gallery</a>
               </li>
                 <li class="nav-item">
-                <a class="nav-link" target="_blank"
-                 href="https://www.facebook.com/profile.php?id=61552646438830">Social Media</a>
+                <a class="nav-link" target="_blank" href="https://www.facebook.com/profile.php?id=61552646438830">Social Media</a>
               </li>
             </ul>
               
@@ -116,23 +129,567 @@
       
     <div class="container my-5 text-center">
      
-        <img src="images\Where's Wallace Reverse Primary Logo.jpg"  class="card-img-top" id = "mainLogo">
+        <img src="images\Where's Wallace Reverse Primary Logo.jpg" class="card-img-top" id="mainLogo">
         
     
         <h4>Where’s Wallace Property Services offers professional lawn care, window cleaning, and exterior maintenance across Albany and the Lower Great Southern. Locally owned and reliable.</h4>
     </div>
 
     <!-- -----------cards---------- -->
-    <div class="container my-5" >
+    <div class="container my-5">
         <div class="row g-4 justify-content-center" id="serviceCards">
            
-        </div>
+        
+  <div class="col-lg-4 col-md-6 col-sm-12" id="lawnmowing" data-bs-toggle="modal" data-bs-target="#lawnmowingModal">
+                <div class="card hover">
+                    <img src="resizedImages/57f8e273-efe9-4946-b4e5-c4543184d421.jpg" class="cardimgtop" alt="Lawnmowing image">
+                    <div class="card-body">
+                        <h5 class="card-title">Lawnmowing</h5>
+                        <p class="card-text">Regular lawn mowing can be a time-consuming task, but with our team it will be no hassle at all.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="acreage" data-bs-toggle="modal" data-bs-target="#acreageModal">
+                <div class="card hover">
+                    <img src="resizedImages/3f74942e-84e6-47ea-8848-3293b708b755.jpg" class="cardimgtop" alt="Acreage Mowing image">
+                    <div class="card-body">
+                        <h5 class="card-title">Acreage Mowing</h5>
+                        <p class="card-text">Maintain the beauty and order of your extensive property.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="lawncare" data-bs-toggle="modal" data-bs-target="#lawncareModal">
+                <div class="card hover">
+                    <img src="resizedImages/lawn1.jpg" class="cardimgtop" alt="Lawncare &amp; Maintenance image">
+                    <div class="card-body">
+                        <h5 class="card-title">Lawncare &amp; Maintenance</h5>
+                        <p class="card-text">Transform your lawn with our extensive care and maintenance services.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="gardening" data-bs-toggle="modal" data-bs-target="#gardeningModal">
+                <div class="card hover">
+                    <img src="resizedImages/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg" class="cardimgtop" alt="Gardening image">
+                    <div class="card-body">
+                        <h5 class="card-title">Gardening</h5>
+                        <p class="card-text">Revitalize your garden or design an entirely new outdoor space for your home or business</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="window" data-bs-toggle="modal" data-bs-target="#windowModal">
+                <div class="card hover">
+                    <img src="resizedImages/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg" class="cardimgtop" alt="Window Cleaning image">
+                    <div class="card-body">
+                        <h5 class="card-title">Window Cleaning</h5>
+                        <p class="card-text">Enjoy spotless, streak-free windows with our professional services.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="pressure" data-bs-toggle="modal" data-bs-target="#pressureModal">
+                <div class="card hover">
+                    <img src="resizedImages/pressurewashing.jpg" class="cardimgtop" alt="Pressure Washing image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pressure Washing</h5>
+                        <p class="card-text">Restore and maintain your property with our professional pressure washing services.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="soft" data-bs-toggle="modal" data-bs-target="#softModal">
+                <div class="card hover">
+                    <img src="resizedImages/softwashing1.jpg" class="cardimgtop" alt="Soft Washing image">
+                    <div class="card-body">
+                        <h5 class="card-title">Soft Washing</h5>
+                        <p class="card-text">Refresh and protect your property with expert soft washing.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="cleaning" data-bs-toggle="modal" data-bs-target="#cleaningModal">
+                <div class="card hover">
+                    <img src="images/coming-soon.jpg" class="cardimgtop" alt="Commercial &amp; Residential Cleaning image">
+                    <div class="card-body">
+                        <h5 class="card-title">Commercial &amp; Residential Cleaning</h5>
+                        <p class="card-text">Keep your space spotless with our professional cleaning services.</p>
+                    </div>
+                </div>
+            </div>
+
+  
+  <div class="col-lg-4 col-md-6 col-sm-12" id="blind" data-bs-toggle="modal" data-bs-target="#blindModal">
+                <div class="card hover">
+                    <img src="images/coming-soon.jpg" class="cardimgtop" alt="Ultrasonic Blind Cleaning image">
+                    <div class="card-body">
+                        <h5 class="card-title">Ultrasonic Blind Cleaning</h5>
+                        <p class="card-text">Transform your blinds with cutting-edge ultrasonic cleaning.</p>
+                    </div>
+                </div>
+            </div>
+
+  </div>
     </div>
 
     <!-- -------------- Modals  ----------- -->
 
 
-    <div id="serviceModals"></div>
+    <div id="serviceModals">
+    <div class="modal fade text-center" id="lawncareModal" tabindex="-1" aria-labelledby="lawncareModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Lawncare and Maintenance</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/lawn1.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/b9772c7a-13b0-4587-a870-2a929a5c585c.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                    Transform your lawn with our extensive care and maintenance services! In addition to
+                    regular mowing, we offer professional fertilizing treatments and lawn rejuvenation packages
+                    designed to enhance the health and appearance of your outdoor space. With flexible
+                    mowing schedules tailored to suit your needs and personalized lawn care solutions, we
+                    ensure your lawn receives the attention it needs for the best possible results.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="acreageModal" tabindex="-1" aria-labelledby="acreageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Acreage Mowing</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/3f74942e-84e6-47ea-8848-3293b708b755.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/cd2afddb-cdb2-427b-b20e-f56e7414ceab.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                      Maintain the beauty and order of your extensive property with our expert acreage mowing
+                    services. Equipped with specialized ride-on mowers designed for large properties, we can
+                    efficiently ensure your property is well looked after. Whether you have a small acre or
+                    several, we tailor our mowing services to suit the unique needs of you and your property to
+                    help it look its best all year-round.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="windowModal" tabindex="-1" aria-labelledby="windowModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Window Cleaning</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/076710e6-c0f9-4827-815b-668ede619691.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/48fbdadb-2b61-4a2c-8085-ef38c4166120.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                     Enjoy spotless, streak-free windows with our professional window cleaning services, perfect
+                    for single and multi-story homes, multi-story buildings, and commercial properties. Using the
+                    latest and best equipment and techniques, we provide an efficient and safe service that
+                    enhances the appearance of your property and maximizes natural light. Whether it's a
+                    residential or commercial space, we tailor our services to meet your window needs,
+                    delivering exceptional results every time. No job is too big or small—we will make your
+                    windows sparkle and shine!
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="pressureModal" tabindex="-1" aria-labelledby="pressureModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Pressure Washing</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/pressurewashing.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                     Restore the appearance and maintain your property with our professional pressure washing
+                    services. From driveways and pathways, to roofs and patios, we use professional pressure
+                    washing equipment to effectively remove dirt, grime, mold, and stains, bringing your surfaces
+                    back to life. Our team ensures safe, thorough cleaning for all areas, enhancing curb appeal
+                    and maintaining the longevity of your property. Whether it's for a small residential space or a
+                    large commercial area, we deliver outstanding results every time, leaving your surfaces
+                    spotless and looking like new.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="softModal" tabindex="-1" aria-labelledby="softModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Soft Washing</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/softwashing.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                      Refresh and protect the exterior of your property with our expert soft washing services. Ideal
+                    for surfaces that require a gentler touch, soft washing uses low-pressure water and
+                    specialized, eco-friendly solutions to effectively remove algae, mold, dirt, and mildew without
+                    causing damage. This method is perfect for roofs, siding, fences, and other delicate areas,
+                    offering a deep clean that lasts longer than traditional pressure washing. With soft washing,
+                    we ensure your property looks its best while preserving the integrity of your surfaces,
+                    providing both a thorough clean and peace of mind.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="cleaningModal" tabindex="-1" aria-labelledby="cleaningModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Commercial and Residential Cleaning</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="images/coming-soon.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                       Keep your space spotless, sparkling, and well-kept with our professional level cleaning
+                    services. Whether it’s your home or business, we offer customized cleaning solutions to suit
+                    all your needs. From routine to deep cleaning projects, our experienced team uses eco-
+                    friendly products and effective techniques to ensure every surface is thoroughly cleaned,
+                    sanitized, and restored. From kitchens and bathrooms to offices and commercial spaces, we
+                    take care of the details so you can enjoy a cleaner, healthier environment. Let us help you
+                    maintain your pristine space that you can enjoy.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="blindModal" tabindex="-1" aria-labelledby="blindModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Ultrasonic Blind Cleaning</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="images/coming-soon.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                          Transform your blinds using our cutting-edge ultrasonic cleaning service that will have them
+                    looking better than ever. Using high-frequency sound waves, we deliver a deep, gentle clean
+                    that removes dust, dirt, allergens, and grime from every slat, without the risk of damage. This
+                    advanced technique penetrates hard-to-reach areas, ensuring a thorough, spotless result
+                    that traditional cleaning methods can’t achieve. Ideal for all types of blinds, ultrasonic
+                    cleaning restores their original shine, improves their functionality, and extends their
+                    lifespan—leaving your blinds looking pristine and like new.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="gardeningModal" tabindex="-1" aria-labelledby="gardeningModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Gardening</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/gardening5.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/gardening2.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/ba979b32-72bd-4f4b-8c0b-81713d9bac07.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                          Whether you're looking to revitalize your garden or design an entirely new outdoor space for your
+                          home or business, you can trust us to bring your vision to life. With years of expertise in every aspect
+                           of gardening and landscaping, we work closely with you to ensure the results not only meet but exceed
+                           your expectations. Our commitment to quality and attention to detail guarantees that you'll receive the 
+                           outdoor space you've always dreamed of.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal fade text-center" id="lawnmowingModal" tabindex="-1" aria-labelledby="lawnmowingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="position-relative">
+                
+                                <!-- Header -->
+                                <div class="modal-header justify-content-center">
+                                    <h1 class="modal-title fs-5">Lawnmowing</h1>
+                                </div>
+                    <!-- Carousel -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+  
+    <div class="carousel-item d-flex justify-content-center active">
+      <img src="resizedImages/57f8e273-efe9-4946-b4e5-c4543184d421.jpg" class="imageStyle" alt="...">
+    </div>
+  
+    <div class="carousel-item d-flex justify-content-center ">
+      <img src="resizedImages/lawn2.jpg" class="imageStyle" alt="...">
+    </div>
+  
+</div>
+                    </div>
+
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute top-0 end-0 p-3" data-bs-dismiss="modal" aria-label="Close" style="z-index: 1055;"></button>
+                </div>
+
+                <!-- Body -->
+                <div class="modal-body">
+                      
+                          Regular lawn mowing can be a time-consuming task, but with our team it will be no hassle at all.
+                          We offer customizable scheduling options to fit your lifestyle, and your lawn's needs so that it
+                          stays maintained all year round without you having to worry at all.
+                </div>
+
+                <!-- Footer -->
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary buttonColoured" data-bs-dismiss="modal" onclick="scrollToCard('contact-form')">Get A Quote</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  </div>
    
 
     <div class="container">
@@ -158,25 +715,24 @@
             </p>
         </div>
     </div>
-<div class = "container">
-    <div id="featurable-15096d0f-d0bf-4123-afd7-aff90022f7bd" data-featurable-async ></div><script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
+<div class="container">
+    <div id="featurable-15096d0f-d0bf-4123-afd7-aff90022f7bd" data-featurable-async=""><div class="shadow-wrapper" style="display: block;" data-dashlane-shadowhost="true" data-dashlane-observed="true"></div></div><script src="https://featurable.com/assets/bundle.js" defer="" charset="UTF-8"></script>
     <div class="container">
         <hr>
-        <form id="contact-form">
+        <form id="contact-form" data-dashlane-rid="333d7447e63e1d57" data-dashlane-classification="contact">
             <h1 class="text-center">Contact Us Or Call Us: <a href="tel:0422493232" class=" fw-bold link" style="text-decoration:none">0422493232</a></h1>
 
             <div class="row">
 
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" name="from_name">
-                </div>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" name="from_name" data-dashlane-rid="2a86d53bfeaff2bf" data-dashlane-classification="name" data-kwimpalastatus="alive" data-kwimpalaid="1751357704623-0">
+                <span id="1751357704623-0" data-dashlanecreated="true" style="color-scheme: initial; forced-color-adjust: initial; mask: initial; math-depth: initial; position: absolute; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; anchor-name: initial; anchor-scope: initial; animation-composition: initial; animation: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: none; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: initial; box-decoration-break: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: pointer; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; dynamic-range-limit: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interpolate-size: initial; isolation: initial; left: 345.5px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: 1; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-block: initial; overflow-clip-margin: initial; overflow-inline: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; print-color-adjust: initial; quotes: initial; r: initial; reading-flow: initial; reading-order: initial; resize: initial; right: initial; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-initial-target: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-marker-group: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-box: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; text-wrap: initial; timeline-scope: initial; top: 2969.7px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-name: initial; visibility: visible; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; white-space-collapse: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span></div>
 
                 <div class="col">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="email" name="from_email">
-                </div>
+                    <input type="email" class="form-control" placeholder="Email" aria-label="email" name="from_email" data-dashlane-rid="bba87c73a93263e9" data-dashlane-classification="email" data-kwimpalastatus="alive" data-kwimpalaid="1751357704623-1">
+                <span id="1751357704623-1" data-dashlanecreated="true" style="color-scheme: initial; forced-color-adjust: initial; mask: initial; math-depth: initial; position: absolute; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; anchor-name: initial; anchor-scope: initial; animation-composition: initial; animation: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: none; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: initial; box-decoration-break: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: pointer; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; dynamic-range-limit: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interpolate-size: initial; isolation: initial; left: 657.5px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: 1; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-block: initial; overflow-clip-margin: initial; overflow-inline: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; print-color-adjust: initial; quotes: initial; r: initial; reading-flow: initial; reading-order: initial; resize: initial; right: initial; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-initial-target: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-marker-group: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-box: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; text-wrap: initial; timeline-scope: initial; top: 2969.7px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-name: initial; visibility: visible; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; white-space-collapse: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span></div>
                 <div class="col">
-                    <input type="number" class="form-control" id="MobileNumber" placeholder="Contact Number"
-                        name="from_number">
+                    <input type="number" class="form-control" id="MobileNumber" placeholder="Contact Number" name="from_number" data-dashlane-rid="6d7d4e8700292dd8" data-dashlane-classification="other">
                 </div>
             </div>
 
@@ -184,16 +740,15 @@
                 <div class="mb-3">
                     <br>
 
-                    <input type="text" class="form-control" id="message"
-                        placeholder="How can we help?" name="message">
+                    <input type="text" class="form-control" id="message" placeholder="How can we help?" name="message" data-dashlane-rid="a80745ae86dcdb51" data-dashlane-classification="other">
                 </div>
 
 
-                <button type="submit" class="btn btn-primary buttonColoured" value="Send">Submit</button>
+                <button type="submit" class="btn btn-primary buttonColoured" value="Send" data-dashlane-label="true" data-dashlane-rid="c99c0cb18cba7176" data-dashlane-classification="action">Submit</button>
                 <br>
                <p id="form-response" class="text-center"></p>
-        </form>
-    </div>
+        
+    </div></form>
     <hr>
     <footer class="py-3 mt-5">
         <div class="container text-center">
@@ -206,7 +761,7 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header text-center flex-column">
-                <a  class="btn" data-bs-dismiss="modal" href="#"></button><img src="images/Where's Wallace Primary Logo.png" class="img-fluid mx-auto" alt="logo" height="150" width="600">
+                <a class="btn" data-bs-dismiss="modal" href="#"><img src="images/Where's Wallace Primary Logo.png" class="img-fluid mx-auto" alt="logo" height="150" width="600">
                 </a>
               </div>
               
@@ -216,7 +771,7 @@
 
                     <!-- Image Gallery -->
                     <div class="gallery-container" id="gallery-container">
-                       </div>
+                        <img src="images/3f74942e-84e6-47ea-8848-3293b708b755.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/5f6fa9ad-1132-4ad5-a110-822e4bec08e7.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/48fbdadb-2b61-4a2c-8085-ef38c4166120.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/57f8e273-efe9-4946-b4e5-c4543184d421.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/263c5c04-9243-4ef0-852e-d4b41c9f59b1.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/076710e6-c0f9-4827-815b-668ede619691.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/b9772c7a-13b0-4587-a870-2a929a5c585c.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/ba979b32-72bd-4f4b-8c0b-81713d9bac07.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/c15e8bba-59d2-4fc4-803b-e46abf60b082.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/cd2afddb-cdb2-427b-b20e-f56e7414ceab.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/gardening before.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/gardening after.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/gardening2.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/gardening5.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/lawn1.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/lawn2.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/softwashing.jpg" class="gallery-item showmodal" data-show-modal="imageModal"> <img src="images/pressurewashing.jpg" class="gallery-item showmodal" data-show-modal="imageModal"></div>
                 </div>
             </div>
             <div class="modal-footer text-center">
@@ -241,11 +796,10 @@
 </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
-</body>
+
+</div></div></body>
 
 </html>
