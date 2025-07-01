@@ -12,7 +12,7 @@
         (function () {
 
             emailjs.init({
-                publicKey: "i75RgkEZOY6MPJYEa",//testing
+                publicKey: "i75RgkEZOY6MPJYEa",
             });
         })();
     </script>
@@ -20,8 +20,8 @@
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm('service_u2rmv0c', 'template_0i43jet', this)//service and template used for testing
+                
+                emailjs.sendForm('service_u2rmv0c', 'template_0i43jet', this)
                     .then(() => {
                         const formResponse = document.getElementById("form-response");
                         formResponse.innerHTML = "Thank you for your message! We will get back to you as soon as possible.";
@@ -185,7 +185,7 @@
                     <br>
 
                     <input type="text" class="form-control" id="message"
-                        placeholder="Please describe how we can be of assistance" name="message">
+                        placeholder="How can we help?" name="message">
                 </div>
 
 
