@@ -196,7 +196,7 @@ const modalInfo = [
     id: "cleaningModal",
     label: "cleaningModalLabel",
     images: [
-  "images/coming-soon.jpg"
+  "images/ReadyforMarket.jpg"
     ],
     title: "Ready for Market",
     desc: `  
