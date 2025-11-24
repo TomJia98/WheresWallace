@@ -25,6 +25,7 @@ const galleryImages = [
 "images/lawn2.jpg",
 "images/softwashing.jpg",
 "images/pressurewashing.jpg",
+"images/ReadyforMarket.jpg"
 ]
 
 galleryImages.forEach(image => {
@@ -89,10 +90,10 @@ const cardInfo = [
   {
     id: "cleaning",
     target: "cleaningModal",
-    image: "images/coming-soon.jpg",
-    title: "Commercial & Residential Cleaning",
+    image: "images/ReadyforMarket.jpg",
+    title: "Ready for Market",
     description:
-      "Keep your space spotless with our professional cleaning services.",
+      "Prepare your property for the market with our professional cleaning services.",
   },
   {
     id: "blind",
@@ -197,15 +198,9 @@ const modalInfo = [
     images: [
   "images/coming-soon.jpg"
     ],
-    title: "Commercial and Residential Cleaning",
+    title: "Ready for Market",
     desc: `  
-                       Keep your space spotless, sparkling, and well-kept with our professional level cleaning
-                    services. Whether it’s your home or business, we offer customized cleaning solutions to suit
-                    all your needs. From routine to deep cleaning projects, our experienced team uses eco-
-                    friendly products and effective techniques to ensure every surface is thoroughly cleaned,
-                    sanitized, and restored. From kitchens and bathrooms to offices and commercial spaces, we
-                    take care of the details so you can enjoy a cleaner, healthier environment. Let us help you
-                    maintain your pristine space that you can enjoy.`,
+                       Selling a home is all about first impressions — and our Ready for Market Cleanup package is designed to make your property stand out We deliver a complete exterior refresh that showcases the home’s true value, and helps you attract stronger offers, faster.`,
   },
 
   {
@@ -215,14 +210,7 @@ const modalInfo = [
       "images/coming-soon.jpg"
     ],
     title: "Ultrasonic Blind Cleaning",
-    desc: `  
-                          Transform your blinds using our cutting-edge ultrasonic cleaning service that will have them
-                    looking better than ever. Using high-frequency sound waves, we deliver a deep, gentle clean
-                    that removes dust, dirt, allergens, and grime from every slat, without the risk of damage. This
-                    advanced technique penetrates hard-to-reach areas, ensuring a thorough, spotless result
-                    that traditional cleaning methods can’t achieve. Ideal for all types of blinds, ultrasonic
-                    cleaning restores their original shine, improves their functionality, and extends their
-                    lifespan—leaving your blinds looking pristine and like new.`,
+    desc: ``,
   },
 
   {
