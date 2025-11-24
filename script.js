@@ -93,7 +93,7 @@ const cardInfo = [
     image: "images/ReadyforMarket.jpg",
     title: "Ready for Market",
     description:
-      "Prepare your property for the market with our professional cleaning services.",
+      "A seamless, full-service makeover that gets your property clean, fresh and ready for market — fast.",
   },
   {
     id: "blind",
