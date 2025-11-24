@@ -100,7 +100,7 @@ const cardInfo = [
     target: "blindModal",
     image: "images/coming-soon.jpg",
     title: "Ultrasonic Blind Cleaning",
-    description: "Transform your blinds with cutting-edge ultrasonic cleaning.",
+    description: "",
   },
 ];
 
